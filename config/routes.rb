@@ -1,4 +1,8 @@
 RailsBench::Application.routes.draw do
+  
+  match "/benchmark.html" => "benchmark#index"
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
